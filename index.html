@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+</head>
+
+<body>
+    <div class="container  d-flex f-direction-col justify-content-center align-items-center" id="container">
+<div class="analyze p">
+        <div class="back" id="back">
+            <a href="#"><i class="fa-solid fa-arrow-left black"></i></a>
+        </div>
+
+        <div class="keyphrase d-flex f-direction-col justify-content-center align-items-center" id="keyphrase">
+            <h3 class="m">Add Keyphrase</h3>
+            <p class="m">and we'll tell you how to optimize for it</p>
+            <input class="m txt-box" id="txt" type="text" placeholder="Add keyphrase here">
+            <button class="m btn-analyze disable" id="btn-analyze" type="submit" onclick="analyze()" disabled>Analyze</button>
+        </div>
+
+
+        <div class="object p" id="object">
+            
+            <!-- <div class="circle"></div> -->
+            <!-- <p id="para">Crawling Web ... <span id="paraspan"></span></p>  -->
+       
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
